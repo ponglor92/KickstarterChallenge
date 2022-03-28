@@ -14,10 +14,10 @@ Exercising different techniques on Excel to create charts that show information 
 - When creating both of the analyses, I did come across from difficulties that I was able to overcome with the help of going over my previous work and asking for help. 
 
 - In the beginning of creating an analysis for "Outcomes Based on Launch Date" I had trouble with extracting the year from the column date created conversion, because when I first copied the date created conversin column into the new row "Years" it gave me 1/1/1970 and then when I used the YEAR() function to extract, it gave me a date of 7/7/1905 and I knew that was wrong. I tried many ways to fix it, such as changing the column from general to short date, long date and time, but it did not work. After a while of not being able to figure it out I reached out an instructor for help, and with the help of the instructor, I was able to extract the year from the date created conversion column. To extract the year from the date created conversion column:
--     First: I clicked on the first cell listed in the column "date created conversion"
--     Second: I clicked on the formula bar and changed the currect formula that was listed to the M/D/Y that was shown in the cell I selected
--     ![year column extract](https://user-images.githubusercontent.com/101531875/160310612-a49c2f12-12cc-4ffe-bfdf-2f2a63953e60.png)
--     Third: After changing the formula to the M/D/Y shown in its specific cell, the YEAR() function worked and was able to extract the year from the date created conversion column
+- First: I clicked on the first cell listed in the column "date created conversion"
+- Second: I clicked on the formula bar and changed the currect formula that was listed to the M/D/Y that was shown in the cell I selected
+- ![year column extract](https://user-images.githubusercontent.com/101531875/160310612-a49c2f12-12cc-4ffe-bfdf-2f2a63953e60.png)
+- Third: After changing the formula to the M/D/Y shown in its specific cell, the YEAR() function worked and was able to extract the year from the date created conversion column
 
 - Throughout doing both of the analyses, evrything went smoothly. The only other challenges I came across, was when it was time to double check the columns in the new sheet "Outcome Based on Goals" for the Anaylsis "Outcome Based on Launch Goals Chart". It was diificult because I had to make sure I used the right greater than/less than signs when plugging into the COUNTIFS() function, along with using the right formula when findnig the percentages. Being precise was important because it could have messed up the line chart that was created at the end.
 ## Results
